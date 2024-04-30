@@ -51,6 +51,7 @@ function setLightMode() {
     icon.src = icon.getAttribute("src-light");
   });
 }
-var date = (new Date().getFullYear()).toString();
-document.getElementById("year").innerHTML = date;
-
+window.onload = function(){
+  var date = new Date().getFullYear();
+  document.getElementById("year").innerHTML = date;
+  }
