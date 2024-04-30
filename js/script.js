@@ -6,8 +6,7 @@ function toggleMenu() {
 }
 
 // Dark / light mode
-var date = (new Date().getFullYear()).toString();
-document.getElementById("year").innerHTML = date;
+
 const btn = document.getElementById("modeToggle");
 const btn2 = document.getElementById("modeToggle2");
 const themeIcons = document.querySelectorAll(".icon");
@@ -52,5 +51,6 @@ function setLightMode() {
     icon.src = icon.getAttribute("src-light");
   });
 }
-
+var date = (new Date().getFullYear()).toString();
+document.getElementById("year").innerHTML = date;
 
