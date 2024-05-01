@@ -14,3 +14,7 @@ A simple Calculator app with fundamental mathematical operators.
 # created Notes App using HTML CSS JavaScript
 
 Notes is a simple text editor. It's ideal for composing brief text documents that you want to save as plain text. If you've never used Notepad before, you might be surprised how simple it is to use.
+
+# created Weather app with HTML CSS JavaScript 
+
+Weather is the state of the atmosphere, comprising temperature, air pressure, wind, humidity, cloud cover, rain.
