@@ -7,10 +7,10 @@ My name is Ganeth Seetsi, and i can showcase my technical abilities and services
 Todo is a new Flutter project that requires new users to register an account. After creating an account, users can login.  
 They will be able to create, modify, and delete tasks.  
 
-# created a Calculator using HTML CSS JavaScript.
+# created a Calculator App using HTML CSS JavaScript.
 
 A simple Calculator app with fundamental mathematical operators.
 
-# created Notes app using HTML CSS JavaScript
+# created Notes App using HTML CSS JavaScript
 
 Notes is a simple text editor. It's ideal for composing brief text documents that you want to save as plain text. If you've never used Notepad before, you might be surprised how simple it is to use.
