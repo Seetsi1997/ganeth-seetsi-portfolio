@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px) {
   #profile {
     height: 34vh;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
   }
   .about-containers {
     flex-wrap: wrap;
@@ -51,7 +51,7 @@
   }
   #profile {
     height: 40vh;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
   footer nav {
     height: fit-content;
