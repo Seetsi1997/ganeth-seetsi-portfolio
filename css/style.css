@@ -365,7 +365,7 @@ section {
 
 .about-containers {
   gap: 1rem;
-  margin-bottom: 5rem;
+  margin-bottom: -5rem;
   margin-top: 3rem;
 }
 
