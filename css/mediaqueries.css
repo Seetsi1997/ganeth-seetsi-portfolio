@@ -57,6 +57,9 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
+  .about-containers{
+    padding: 12px;
+  }
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
