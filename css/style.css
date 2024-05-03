@@ -365,8 +365,8 @@ section {
 
 .about-containers {
   gap: 1rem;
-  margin-bottom: 0rem;
-  margin-top: 7rem;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
 }
 
 .about-details-container {
