@@ -740,7 +740,12 @@ section {
 }
 
 /* FOOTER SECTION */
-
+#year{
+  text-decoration: none;
+  font-style: italic;
+  font-size: medium;
+  color: var(--box-shadow);
+}
 footer {
   height: 26vh;
   margin: 0 1rem;
