@@ -472,7 +472,7 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 30px;
-  grid-column-gap: 50px;
+  grid-column-gap: 25px;
 }
 
 .skills_main .skill_bar .info {
