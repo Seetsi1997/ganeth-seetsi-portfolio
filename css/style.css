@@ -426,6 +426,7 @@ section {
 #experience {
   position: relative;
   background-color: var(--background-color-1);
+  bottom-top: 40px;
 }
 
 .experience-sub-title {
@@ -666,6 +667,7 @@ section {
 #projects {
   position: relative;
   padding: 60px;
+  bottom-top:  40px;
 }
 
 .color-container {
