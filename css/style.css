@@ -369,14 +369,14 @@ section {
 }
 
 .about-details-container {
+  display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.about-containers,
-.about-details-container {
-  display: flex;
-}
+.about-containers{
+  display: grid;
+} 
 
 .about-pic {
   border-radius: 2rem;
@@ -668,7 +668,9 @@ section {
   padding: 60px;
   bottom:  40px;
 }
-
+.experience-containers{
+  display: flex;
+} 
 .color-container {
   border-color: var(--primary-color-3);
   background: var(--primary-color);
