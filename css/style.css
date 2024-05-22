@@ -327,11 +327,6 @@ section {
 .btn-color-2:hover {
   cursor: pointer;
 }
-.text-container .ro{
-  color: var(--primary-color-3);
-  font-style: oblique;
-  padding: 30px;
-}
 
 .btn-color-1,
 .btn-color-2:hover {
@@ -389,7 +384,7 @@ section {
 
 .details-container {
   padding: 0.60rem;
-  flex: 1;
+  flex: auto;
   background: var(--primary-color);
   border-radius: 2rem;
   border: var(--button-border);
@@ -421,6 +416,11 @@ section {
   margin:auto 0;
 }
 
+.text-container .ro{
+  color: var(--primary-color-3);
+  font-style: oblique;
+  padding: 30px;
+} 
 /* EXPERIENCE SECTION */
 
 #experience {
