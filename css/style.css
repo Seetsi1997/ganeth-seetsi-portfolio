@@ -426,7 +426,6 @@ section {
 #experience {
   position: relative;
   background-color: var(--background-color-1);
-  bottom: 40px;
 }
 
 .experience-sub-title {
