@@ -448,7 +448,7 @@ section {
   height: 50vh;
   padding: 0px 13%;
   background-color: var(--transparent-color);
-  display: flex;
+  display: inline;
   align-items: center;
   justify-content: center;
   flex-direction: column;
