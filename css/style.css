@@ -457,7 +457,7 @@ section {
 .skills_head {
   width: 100%;
   margin-bottom: 100px;
-  display: inline;
+  display: flex;
   place-items: center;
   text-align: center;
 }
@@ -666,7 +666,7 @@ section {
 #projects {
   position: relative;
   padding: 60px;
-  bottom: 40px;
+  bottom: 10px;
 }
 
 .color-container {
