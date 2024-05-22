@@ -458,7 +458,7 @@ section {
 .skills_head {
   width: 100%;
   margin-bottom: 100px;
-  display: infinite;
+  display: flex;
   place-items: center;
   text-align: center;
 }
@@ -492,7 +492,7 @@ section {
 
 .skill_bar .bar {
   width: 100%;
-  height: 100px;
+  height: 10px;
   background-color: var(--button-background);
   border-radius: 25px;
   margin-top: 5px;
