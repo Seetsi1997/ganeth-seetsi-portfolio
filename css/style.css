@@ -809,7 +809,8 @@ textarea:focus {
 textarea {
   height: 150px;
 }
-input[type='submit'] {
+input[type='submit'], 
+input[type= 'reset'] {
   background-color: var(--primary-color-3);
   color: var(--primary-color);
   padding: 10px 10px;
@@ -819,6 +820,7 @@ input[type='submit'] {
   font-size: 18px;
   font-weight: bold;
   text-align: center;
+  font-style: inherit;
 }
 input[type='reset'] {
   background-color: var(--button-text-hover;
@@ -830,6 +832,7 @@ input[type='reset'] {
   font-size: 18px;
   font-weight: bold;
   text-align: center;
+  font-style: inherit;
 }
 
 #year{
