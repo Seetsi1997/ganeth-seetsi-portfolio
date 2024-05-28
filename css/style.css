@@ -823,7 +823,7 @@ input[type= 'reset'] {
   font-style: inherit;
 }
 input[type='reset'] {
-  background-color: var(--button-text-hover;
+  background-color: var(--button-text-hover);
   color: var(--primary-color);
   padding: 10px 10px;
   border: none;
