@@ -11,7 +11,7 @@
   <body>
     <!--          Desktop                                            -->
     <nav id="desktop-nav">
-      <div class="logo">Ganeth Seetsi</div>
+      <div class="logo">Ganeth Seetsi <span id="desktop-time" class="logo"></span></div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -29,7 +29,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Ganeth Seetsi</div>
+      <div class="logo">Ganeth Seetsi <span id="hamburger-time" class="logo"> </span></div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -56,6 +56,9 @@
     <!--              Profile                                          -->
     <section id="profile">   
       <div class="section__text">
+        <p class="section__text__p1">(<span id="datetime" ></span>) </p> 
+        </br>
+        </br>
         <p class="section__text__p1">Hello Everyone, I'm</p>
         <h1 class="title">Ganeth Seetsi</h1>
         <p class="section__text__p2">Software Developer Intern</p>
@@ -413,6 +416,7 @@
           <textarea id="message" name="message" required></textarea>
         </div>
         <input type="submit" value="Submit"/>
+        <input type="reset" value="Reset" />
       </form>
     </div>
       <nav>
