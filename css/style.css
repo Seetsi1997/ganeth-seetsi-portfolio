@@ -812,19 +812,26 @@ textarea {
 input[type='submit'] {
   background-color: var(--primary-color-3);
   color: var(--primary-color);
-  padding: 10px 20px;
+  padding: 10px 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
-  
+  text-align: center;
 }
-input[type='submit']:hover {
-  background-color: var(--button-text-hover);
+input[type='reset'] {
+  background-color: var(--button-text-hover;
   color: var(--primary-color);
-
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
 }
+
 #year{
   text-decoration: none;
   font-style: italic;
