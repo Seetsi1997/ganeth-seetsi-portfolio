@@ -73,6 +73,28 @@ p {
   margin-bottom: auto;
   text-align: center;
 }
+
+#desktop-time,
+#hamburger-time{
+ display: grid ;
+  font-size: 1rem;
+  font-weight: bolder;
+  border: 0.1px solid var(--primary-color-3);
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 25px;
+  transition: ease-in-out 0.1s;
+  margin-top: 5px; 
+} 
+
+#desktop-time, 
+#hamburger-time{
+  background-color: var(--primary-color-3);
+  box-shadow: none;
+  color: var(--primary-color);
+  cursor: pointer;
+} 
+
 .app{
   color: var(--color);
 }
