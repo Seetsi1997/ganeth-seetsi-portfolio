@@ -79,7 +79,7 @@ p {
  display: grid ;
   font-size: 1rem;
   font-weight: bolder;
-  border: 0.1px solid var(--primary-color-3);
+ /* border: 0.1px solid var(--primary-color-3);*/
   padding: 10px 20px;
   text-align: center;
   border-radius: 25px;
@@ -89,7 +89,7 @@ p {
 
 #desktop-time, 
 #hamburger-time{
-  background-color: var(--primary-color-3);
+  /*background-color: var(--primary-color-3);*/
   box-shadow: none;
   color: var(--primary-color);
   cursor: pointer;
