@@ -91,7 +91,7 @@ p {
 #hamburger-time{
   /*background-color: var(--primary-color-3);*/
   box-shadow: none;
-  color: var(--primary-color);
+  color: var(--primary-color-3);
   cursor: pointer;
 } 
 
