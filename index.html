@@ -14,9 +14,11 @@
       <div class="logo">Ganeth Seetsi <span id="desktop-time" class="logo"></span></div>
       <div>
         <ul class="nav-links">
+           <li><a href="#profile">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#testimonial">Testimonial</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><img 
             id="modeToggle"
@@ -37,9 +39,11 @@
           <span></span>
         </div>
         <div class="menu-links">
+         <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#testimonial" onclick="toggleMenu()">Testimonial</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
           <li><img 
             id="modeToggle2"
@@ -290,6 +294,34 @@
       </div>
     </div>
     <!--            End Projects Section                  -->
+     <!--            Testimonial                           -->
+    <section id="testimonial">
+        <p class="section__text__p1"style="font-style: oblique;" >What people are saying</p>
+        <h1 class="title"><a href="#projects" style="text-decoration: none;">Testimonials </a></h1>
+        <div class="main-div">
+              <div class="img-container">
+                  <img
+                  src="./assets/lightMode/testimonial_light.png"
+                  src-light="./assets/lightMode/testimonial_light.png"
+                  src-dark="./assets/darkMode/testimonial_dark.png"
+                  alt="Testimonial icon" id="img" class="icon"/>
+              </div>
+              <div class="main-content">
+                <h2 class="author" id="user_name">Justice</h2>
+                <p class="job" id="job">* Java Developer *</p>
+                  <p class="text" id="text">You are a dedicated developer with a passion  for coding and tech. His enthusiasm is 
+                  contagious, and his strong work ethics ensures great results. He's a team player who brings energy and 
+                  ideas to every project, making him a valueable asset to any team.</p>
+              <div class="btnContainer">
+                    <i id="prev-btn" class="fa-solid fa-angle-left"></i>
+                    <i id="next-btn" class="fa-solid fa-angle-right"></i>
+              </div>
+            <button class="btn btn-color-2 project-btn" id="randomBtn">Review</button>
+         </div>
+       </div>
+   </section>
+    <!--            End Testimonial Section               -->
+    
     <!--            Contacts                              -->
     <div id="contact">
       <p class="section__text__p1" style="font-style: oblique;">Get in Touch With Me By</p>
@@ -352,14 +384,16 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about" style="font-style: oblique;">About</a></li>
-            <li><a href="#experience" style="font-style: oblique;">Experience</a></li>
-            <li><a href="#projects" style="font-style: oblique;" >Projects</a></li>
-            <li><a href="#contact" style="font-style: oblique;" >Contact</a></li>
+             <li><a href="#profile">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#experience">Experience</a></li>
+             <li><a href="#projects">Projects</a></li>
+             <li><a href="#testimonial">Testimonial</a></li>
+             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p style="font-weight: bolder;">&#169; <a id="year"></a> by Ganeth Seetsi Frontend Developer Intern, All Rights Reserved.</p>
+      <p style="font-weight: bolder;">&#169; 2020-<a id="year"></a> by Ganeth Seetsi Frontend Developer Intern, All Rights Reserved.</p>
        </br>
       <p class="line-style"></p>
       </br>
@@ -396,6 +430,8 @@
       <!--        End Footer                               -->
     <!--        Scripts                                  -->
     <script src="./js/script.js"></script>
+    <script src="./js/testimonial.js"></script>
+    <script src="./js/themeMode.js"></script>
     <!--       End Scripts                               -->
   </body>
 </html>
