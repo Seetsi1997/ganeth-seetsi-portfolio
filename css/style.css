@@ -208,7 +208,7 @@ nav a:hover{
 
 .menu-links a {
   display: block;
-  padding: 10px;
+  padding: 3px;
   text-align: center;
   font-size: 1.5rem;
   color: var(--secondary-color);
@@ -323,6 +323,7 @@ section {
   cursor: pointer;
   height: 2rem;
 }
+/* END ICON */
 
 /* BUTTONS */
 
@@ -376,7 +377,7 @@ section {
 .btn-container {
   gap: 1rem;
 }
-
+/* END BUTTON   */
 /* ABOUT SECTION */
 
 #about {
@@ -443,6 +444,7 @@ section {
   font-style: oblique;
   padding: 30px;
 } 
+/* END ABOUT SECTION  */
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -683,8 +685,8 @@ section {
       width: 65%;
    }
 }
+/* END EXPIRIENCE SECTION */
 /* PROJECTS SECTION */
-
 #projects {
   position: relative;
   padding: 60px;
@@ -720,6 +722,88 @@ section {
   border-color: var(--container-border);
   box-shadow: var(--box-shadow) var(--primary-color-3);
 }
+/* END PROHJECT SECTION */
+/* TESTIMONIAL SECTION */
+#testimonial {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 79px;
+}
+
+.main-div {
+  margin-top: 2rem;
+  width: 19rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: var(--button-border);
+  border-color: var(--primary-color-3);
+  box-shadow: var(--box-shadow) var(--primary-color-3);
+  background-color: var(--primary-color);
+}
+
+.img-container {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin: auto;
+  margin-bottom: .7rem;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.author, .job {
+  font-weight: bold;
+  color: var(--color);
+}
+
+.author, .job, .text {
+  margin-bottom: 0.5rem;
+}
+
+.text {
+  text-align: center;
+}
+
+.btnContainer {
+  color: var(--primary-color-3);
+  font-size: 1.5rem;
+  justify-content: space-around;
+
+}
+
+.randomBtn {
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--primary-color-3);
+  border-radius: 2rem;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid var(--primary-color-3);
+  box-shadow: var(--primary-color);
+  cursor: pointer;
+}
+
+.fa-solid {
+  cursor: pointer;
+}
+/* END TESTIMONIAL SECTION */
 
 /* CONTACT */
 
@@ -766,7 +850,8 @@ section {
 .email-icon {
   height: 2.5rem;
 }
-
+}
+/* END CONTACT SECTION */
 /* FOOTER SECTION */
 .container {
   max-width: 600px;
@@ -850,3 +935,4 @@ footer p {
   text-align: center;
   color: var(--secondary-color);
 }
+/* END FOOTER */
