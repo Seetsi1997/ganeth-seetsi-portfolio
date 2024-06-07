@@ -398,7 +398,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-top: 30px;
+  padding-top: 70px;
 }
 
 .about-containers{
@@ -455,7 +455,7 @@ section {
 #experience {
   position: relative;
   background-color: var(--background-color-1);
-  padding-top: 119px;
+  padding-top: 130px;
 }
 
 .experience-sub-title {
