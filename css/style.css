@@ -391,19 +391,16 @@ section {
 .about-containers {
   gap: 1rem;
   margin-bottom: 0rem;
-  margin-top: 10rem;
+  margin-top: 3rem;
 }
 
 .about-details-container {
-  display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-top: 90px;
 }
 
 .about-containers{
-   padding-top: 120;
-   display: grid;
+   display: flex;
 } 
 
 .about-pic {
