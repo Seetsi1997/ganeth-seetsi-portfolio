@@ -814,10 +814,10 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
- /* padding: 5vh;*/
+  padding: 3vh;
   height: 70vh;
-  padding-top: 30px;
-}
+ /* padding-top: 30px;*/
+ } 
 
 .contact-info-upper-container {
   display: flex;
@@ -860,7 +860,7 @@ section {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  color: #ffffff;
+  margin-top: 15vh; 
 }
 .form-group {
   margin-bottom: 20px;
