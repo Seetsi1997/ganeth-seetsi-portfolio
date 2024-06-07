@@ -1,1 +1,442 @@
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ganeth-Seetsi-Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+  <body>
+    <!--          Desktop                                            -->
+    <nav id="desktop-nav">
+      <div class="logo">Ganeth Seetsi <span id="desktop-time" class="logo"></span></div>
+      <div>
+        <ul class="nav-links">
+           <li><a href="#profile">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#testimonial">Testimonial</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><img 
+            id="modeToggle"
+            class="icon color-icon"
+            src="./assets/lightMode/theme_light.png" 
+            src-light="./assets/lightMode/theme_light.png"
+            src-dark="./assets/darkMode/theme_dark.png  "
+          alt="Color them icon "></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ganeth Seetsi <span id="hamburger-time" class="logo"> </span></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+         <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#testimonial" onclick="toggleMenu()">Testimonial</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><img 
+            id="modeToggle2"
+            class="icon color-icon"
+            src="./assets/lightMode/theme_light.png" 
+            src-light="./assets/lightMode/theme_light.png"
+            src-dark="./assets/darkMode/theme_dark.png  "
+          alt="Color them icon "></li> 
+        </div>
+      </div>
+    </nav>
+    <!--              End Desktop navigation                           -->
+    <!--              Profile                                          -->
+    <section id="profile">   
+      <div class="section__text">
+        <p class="section__text__p1">(<span id="datetime" ></span>) </p> 
+        </br>
+        <p class="section__text__p1">Hello Everyone, I'm</p>
+        <h1 class="title">Ganeth Seetsi</h1>
+        <p class="section__text__p2">Frontend Developer Intern</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/GanethSeetsicv.pdf')"> Download CV </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info </button>
+        </div>
+      </div>
+    </section>
+    <!--           End Profile Section                         -->
+    <!--           About                                       -->
+    <section id="about">
+      <p class="section__text__p1" style="font-style: obliqu;">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/lightMode/experience_light.png"
+                src-light="./assets/lightMode/experience_light.png"
+                src-dark="./assets/darkMode/experience_dark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <br/>
+              <p  style="color:rgb(42, 180, 180) ;">Olehile Investment PTY LTD: Pretoria, GP:<br /></p>
+              <p class="list-color"></p>
+              <p style="color:rgb(42, 180, 180) ;" >IT Technician, Sept 2018 - Jan 2019</p>
+              <br>
+              <p class="list-color" ></p>
+              <p class="qualification" >POS Devices Installation & Repair.</p>
+              <p class="qualification" >Microsoft Office 365 Installation & Repair.</p>
+              <p  class="qualification" >Helpdesk Repair.</p>
+              <p class="qualification" >Computer Repair.</p>
+              
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/lightMode/education_light.png"
+                src-light="./assets/lightMode/education_light.png"
+                src-dark="./assets/darkMode/education_dark.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <br/>
+              <p style="color:rgb(42, 180, 180) ;">Central University of Technology:
+                <p class="list-color"></p>
+                <p class="qualification">2019-2021: Diploma  in Information Technology, Major in Database, Software Development, Technical Programming.</p>
+               <br/>
+              <p style="color:rgb(42, 180, 180) ;" >Torque IT:
+                <p class="list-color" ></p>
+                <p class="qualification"> 2018-2019: National Certificate(Information Technology: Technical Support NQF Level 4), Major in CompTIA A+ | N+.</p>
+              <br/> 
+              <p style="color:rgb(42, 180, 180) ;" >Sidinane Senior Secondary School:
+                <p class="list-color"></p>
+                <p class="qualification">2015-2017: Matriculated With Bachelar's Certificate, Commerce Subjects Curriculum, Business Studies, Economics..etc.</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p class="ro">
+              "I am excited to work in my area in a capacity that will challenge me and help me improve professionally. 
+              I'm seeking for a position where I can fully utilize my abilities and skills and contribute to the development of the industry.
+              I'm inspired by the potential of personal growth, and I believe that this work will help me reach my objectives."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--              End About Section                         -->
+    <!--              Expirience                                -->
+    <div id="experience">
+      <p class="section__text__p1" style="font-style: oblique;">Explore My</p>
+      <h1 class="title"><a href="#about" style=" text-decoration: none;">Experience</a></h1>
+      <section id="skills">
+        <div class="skills_section">
+            <div class="skills_main">
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <P>85%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <P>80%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>C#</p>
+                        <P>45%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="c-sharp"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>JavaScript</p>
+                        <P>25%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="js"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>ASP.Net</p>
+                        <P>35%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="asp-net"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>SQL</p>
+                        <P>60%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="sql"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>Dart</p>
+                        <P>35%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="dart"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>Flutter</p>
+                        <P>55%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="flutter"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                  <div class="info">
+                      <p>Backendless</p>
+                      <P>30%</P>
+                  </div>
+                  <div class="bar">
+                      <span class="mongo"></span>
+                  </div>
+              </div>
+              <div class="skill_bar">
+                <div class="info">
+                    <p>Firebase</p>
+                    <P>30%</P>
+                </div>
+                <div class="bar">
+                    <span class="firebase"></span>
+                </div>
+            </div>
+            </div>
+        </div>
+      </section>
+    </div>
+<!--              End skills/Expirience section                        -->
+<!--              Projects                                             -->
+   <div id="projects">
+      <p class="section__text__p1"style="font-style: oblique;" >Browse My Recent</p>
+      <h1 class="title"><a href="#experience" style=" text-decoration: none;">Projects</a></h1>
+      <div class="experience-details-container">
+        <div class="about-containers experience-containers">
+          <div class="details-container color-container">
+            </br>
+            <p>
+              A simple <b class="app">Todo App</b> with  <b class="app">register</b>, <b class="app" >login</b>, and the ability to <b class="app" >add</b>, <b class="app" >modify</b> and <b class="app" >delete </b>tasks.
+              This app stores all of the created todos in Backendless database. <b class="app">{Flutter </b> | <b class="app">Backendless}</b>.
+            <h2 class="experience-sub-title project-title">Todo</h2>
+            <div class="btn-container"> 
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/seetsi1997'"> Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Seetsi1997/todo'" >Live Demo</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+          </br>
+            <p>
+              A simple <b class="app">Calculator App</b> with fundamental mathematical operators.
+              This calculator app does not have a feature of light mode & dark mode. <b class="app">{HTML</b> |<b class="app" > CSS</b> |<b class="app"> JavaScript}</b>. 
+            </p>
+            <h2 class="experience-sub-title project-title">Calculator App</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/seetsi1997'"> Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://seetsi1997.github.io/Calculator/'" >Live Demo</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+          </br>
+             <p>
+             A simple <b class="app">Notes App</b> provides a simple text editor.  
+               If you have never used <b class="app">Notes</b> before, you may be amazed at how easy it is to use. 
+              <b class="app">{HTML</b> |<b class="app" > CSS</b> |<b class="app"> JavaScript}</b>.
+             </p>
+            <h2 class="experience-sub-title project-title">Notes App</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/seetsi1997'"> Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://seetsi1997.github.io/notes/'" >Live Demo</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+          </br>
+            <p> 
+            A simple <b class="app" >Weather App</b> are extremely handy tools that provide current weather information in your location.
+               <b class="app">{HTML</b> |<b class="app" > CSS</b> |<b class="app"> JavaScript}</b>.
+            </p>
+            <h2 class="experience-sub-title project-title">Weather App</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/seetsi1997'"> Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Seetsi1997/weather'" >Live Demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--            End Projects Section                  -->
+     <!--            Testimonial                           -->
+    <section id="testimonial">
+        <p class="section__text__p1"style="font-style: oblique;" >What people are saying</p>
+        <h1 class="title"><a href="#projects" style="text-decoration: none;">Testimonials </a></h1>
+        <div class="main-div">
+              <div class="img-container">
+                  <img
+                  src="./assets/lightMode/testimonial_light.png"
+                  src-light="./assets/lightMode/testimonial_light.png"
+                  src-dark="./assets/darkMode/testimonial_dark.png"
+                  alt="Testimonial icon" id="img" class="icon"/>
+              </div>
+              <div class="main-content">
+                <h2 class="author" id="user_name">Justice</h2>
+                <p class="job" id="job">* Java Developer *</p>
+                  <p class="text" id="text">You are a dedicated developer with a passion  for coding and tech. His enthusiasm is 
+                  contagious, and his strong work ethics ensures great results. He's a team player who brings energy and 
+                  ideas to every project, making him a valueable asset to any team.</p>
+              <div class="btnContainer">
+                    <i id="prev-btn" class="fa-solid fa-angle-left"></i>
+                    <i id="next-btn" class="fa-solid fa-angle-right"></i>
+              </div>
+           <!-- <button class="btn btn-color-2 project-btn" id="randomBtn">Review</button>  --> 
+         </div>
+       </div>
+   </section>
+    <!--            End Testimonial Section               -->
+    
+    <!--            Contacts                              -->
+    <div id="contact">
+      <p class="section__text__p1" style="font-style: oblique;">Get in Touch With Me By</p>
+      <h1 class="title"><a href="#projects" style="text-decoration: none;">Contacting Me </a></h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/lightMode/email_light.png"
+            src-light="./assets/lightMode/email_light.png"
+            src-dark="./assets/darkMode/email_dark.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon" style="height: 35px;"
+          />
+          <p><a href="mailto:seetsi1997@gmail.com">seetsi1997@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/lightMode/phone_call_light.png"
+            src-light="./assets/lightMode/phone_call_light.png"
+            src-dark="./assets/darkMode/phone_call_dark.png"
+            alt="Call icon"
+            class="icon contact-icon"
+          />
+          <p><a href="tel:+27609440410">(+27) 60 944 0410</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/lightMode/linkedin_light.png"
+            src-light="./assets/lightMode/linkedin_light.png"
+            src-dark="./assets/darkMode/linkedin_dark.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/ganeth-seetsi-531098168">LinkedIn</a></p>
+        </div>
+      </div>
+    </div>
+    <!--          End Contact Section                      -->
+   <p style="text-align: center;  padding-top: 36px;">OR</p>
+    <!--          Footer                                   -->
+    <footer>
+      <div class="container">
+      <form action="https://formspree.io/f/moqpwnyj" method="post">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required="E" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <input type="submit" value="Submit"/>
+        <input type="reset" value="Reset" />
+      </form>
+    </div>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+             <li><a href="#profile">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#experience">Experience</a></li>
+             <li><a href="#projects">Projects</a></li>
+             <li><a href="#testimonial">Testimonial</a></li>
+             <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p style="font-weight: bolder;">&#169; 2020-<a id="year"></a> by Ganeth Seetsi Frontend Developer Intern, All Rights Reserved.</p>
+       </br>
+      <p class="line-style"></p>
+      </br>
+      <a href="./terms/terms-and-condictions.html" style="text-decoration: none; font-weight: bolder;"><p style="text-decoration: none;"> Terms And Conditions</p></a>
+    </br>
+        <div id="socials-container">
+          <img
+            src="./assets/lightMode/linkedin_light.png"
+            src-light="./assets/lightMode/linkedin_light.png"
+            src-dark="./assets/darkMode/linkedin_dark.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/ganeth-seetsi-531098168'"
+          />
+          <img
+            src="./assets/lightMode/github_light.png"
+            src-light="./assets/lightMode/github_light.png"
+            src-dark="./assets/darkMode/github_dark.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://www.github.com/seetsi1997'"
+          />
+          <img
+            src="./assets/lightMode/instagram_light.png"
+            src-light="./assets/lightMode/instagram_light.png"
+            src-dark="./assets/darkMode/instagram_dark.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://www.Instagram.com/ganeth14'"
+          />
+        </div>
+      </br>
+    </footer>
+      <!--        End Footer                               -->
+    <!--        Scripts                                  -->
+    <script src="./js/script.js"></script>
+    <script src="./js/testimonial.js"></script>
+    <script src="./js/themeMode.js"></script>
+    <!--       End Scripts                               -->
+  </body>
+</html>
