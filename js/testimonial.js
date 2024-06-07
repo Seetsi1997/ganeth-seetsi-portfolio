@@ -1,4 +1,4 @@
-/ Reviews Data for manipulation
+/*Reviews Data for manipulation*/ 
 const reviews = [
     {
         user_name: 'Itu',
