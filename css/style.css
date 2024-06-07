@@ -31,7 +31,8 @@
   --box-shadow: 2px 3px 0px 0px;
   --transparent-color: transparent;
 }
-/* END DARK MODE*/
+/* END DARK Mode */
+/* BODY SECTION OR * SECTION */
 *,
 ::before,
 ::after {
@@ -100,20 +101,20 @@ p {
 .app{
   color: var(--color);
 }
+/* END BODY SECTION OR * SECTION */
 /* TRANSITION */
-
 a,
 .btn {
   transition: all 300ms ease;
 }
 /* END TRANSITION */
 /* DESKTOP NAV */
-
 nav,
 .nav-links {
   display: flex;
   align-items: center;
 }
+
 img{
   color: var(--color);
   font-style: italic;
@@ -171,7 +172,6 @@ nav a:hover{
 }
 /* END DESKTOP NAV */
 /* HAMBURGER MENU */
-
 #hamburger-nav {
   display: none;
 }
@@ -251,7 +251,6 @@ nav a:hover{
 }
 /* END HAMBURGER MENU */
 /* SECTIONS */
-
 section {
   padding-top: 4vh;
   height: 96vh;
@@ -259,13 +258,11 @@ section {
   box-sizing: border-box;
   min-height: fit-content;
 }
-
 .section-container {
   display: flex;
 }
 /* END SECTION */
 /* PROFILE SECTION */
-
 #profile {
   display: inline;
   justify-content: center;
@@ -320,14 +317,12 @@ section {
 }
 
 /* ICONS */
-
 .icon {
   cursor: pointer;
   height: 2rem;
 }
 /* END ICONS */
 /* BUTTONS */
-
 .btn-container {
   display: flex;
   justify-content: center;
@@ -380,7 +375,6 @@ section {
 }
 /* END BUTTON */
 /* ABOUT SECTION */
-
 #about {
   position: relative;
 }
@@ -448,7 +442,6 @@ section {
 } 
 /* END ABOUT SECTION  */
 /* EXPERIENCE SECTION */
-
 #experience {
   position: relative;
   background-color: var(--background-color-1);
@@ -462,13 +455,11 @@ section {
   margin-bottom: 2rem;
 }
 
-
 .experience-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-
 
 .skills_section {
   width: 100%;
@@ -595,7 +586,6 @@ section {
   animation: java 2s;
 }
 
-
 @keyframes java{
    0%{
       width:0%;
@@ -608,7 +598,6 @@ section {
   width:70%;
   animation: flutter 2s;
 }
-
 
 @keyframes flutter{
    0%{
@@ -623,7 +612,6 @@ section {
   animation: firebase 2s;
 }
 
-
 @keyframes firebase{
    0%{
       width: 0%;
@@ -636,7 +624,6 @@ section {
   width: 45%;
   animation: dart 2s;
 }
-
 
 @keyframes dart{
    0%{
@@ -651,7 +638,6 @@ section {
   animation: sql 2s;
 }
 
-
 @keyframes sql{
    0%{
       width:0%;
@@ -664,7 +650,6 @@ section {
   width: 70%;
   animation: c-sharp 2s;
 }
-
 
 @keyframes c-sharp{
    0%{
@@ -679,7 +664,6 @@ section {
   animation: asp-net 2s;
 }
 
-
 @keyframes asp-net{
    0%{
       width:0%;
@@ -690,7 +674,6 @@ section {
 }
 /* END EXPIRIENCE SECTION*/
 /* PROJECTS SECTION */
-
 #projects {
   position: relative;
   padding: 60px;
@@ -711,15 +694,12 @@ section {
   width: 20%;
   height: 3%;
   cursor: text;
-
-
 }
 
 .project-title {
   margin: 1rem;
   color: var(--secondary-color);
 }
-
 
 .project-btn {
   color: var(--secondary-color);
@@ -809,7 +789,6 @@ section {
 }
 /* END TESTIMONIAL SECTION */
 /* CONTACT SECTION */
-
 #contact {
   display: flex;
   justify-content: center;
@@ -830,7 +809,6 @@ section {
   margin: 2rem auto;
   padding: 0.5rem;
 }
-
 
 .contact-info-container {
   display: flex;
@@ -925,7 +903,7 @@ input[type='reset'] {
 
 #year{
   text-decoration: none;
-  font-style: italic;
+  font-style: none;
   font-size: medium;
   color: var(--box-shadow);
 }
