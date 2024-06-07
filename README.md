@@ -2,6 +2,13 @@
 
 My name is Ganeth Seetsi, and i can showcase my technical abilities and services through software development, web development, technical programming and database.
 
+# Responsive Personal Portfolio 
+- Responsive personal portfolio website using HTML CSS and JavaScript.
+- Smooth scrolling in each section.
+- Including dart or light mode.
+- Sending email in the contact section.
+- All mobile devices are compatible, and the user interface is stylish and pleasant.
+
 # created Todo App using Flutter Dart Language
 
 Todo App is a new Flutter project that requires new users to register an account. After creating an account, users can login.  
