@@ -14,6 +14,41 @@
     <title>Ganeth Seetsi Terms And Conditions</title>
   <head>
     <style>
+      /* GENERAL */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/* DEFAULT LIGHT MODE */
+:root {
+--primary-color: white;
+--background-color: rgba(255, 255, 255, 0.144);
+--background-color-1: none;
+--primary-color-3: rgb(42, 180, 180); 
+--secondary-color: rgb(42,180,180); 
+--button-background: rgb(110, 110, 110);
+--button-text-hover: rgb(73, 73, 73);
+--button-border: rgb(42, 180, 180) 0.1rem solid;
+--color: black;
+--color-2: rgb(42, 180, 180);
+--box-shadow: 2px 3px 0px 0px;
+--transparent-color: transparent;
+}
+/* END DEFAULT LIGHT MODE */
+/* DARK MODE */
+[theme="dark"] {
+  --primary-color: black;
+  --background-color: rgb(33, 33, 33);
+  --background-color-1: none;
+  --primary-color-3: rgb(255, 255, 255);
+  --secondary-color: white;
+  --button-background: rgb(202, 202, 202);
+  --button-text-hover: lightgrey;
+  --button-border: rgb(255, 255, 255) 0.1rem solid;
+  --color: rgb(42, 180, 180);
+  --color-2: black;
+  --box-shadow: 2px 3px 0px 0px;
+  --transparent-color: transparent;
+}
+/* END DARK Mode */
+      
       *{
         margin: 0%;
         padding: 0.5%;
@@ -31,7 +66,7 @@
           text-decoration: none;
           text-decoration-line: underline;
           text-underline-offset: 1rem;
-          color: var(--primary-color);
+          color: var(--color);
         }
     </style>
 <body>
